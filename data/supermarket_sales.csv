@@ -1,0 +1,501 @@
+InvoiceID,Date,Branch,City,Category,Product,Unit Price,Quantity,CustomerType,PaymentMethod,Rating,Sales
+INV-1001,2024-04-02,C,Mumbai,Bakery,Croissant,119.36,9.0,Normal,Card,3.8,1074.24
+INV-1002,2024-04-25,B,Delhi,Bakery,White Bread,140.85,8.0,Normal,Cash,3.4,1126.8
+INV-1003,2024-03-21,B,Delhi,Beverages,Coffee Powder,121.07,9.0,Normal,UPI,4.8,1089.63
+INV-1004,2024-01-28,C,Mumbai,Beverages,Coffee Powder,100.04,6.0,Normal,Card,3.7,600.24
+INV-1005,2024-04-11,B,Delhi,Bakery,White Bread,48.68,5.0,Member,Cash,3.4,243.4
+INV-1006,2024-02-26,B,Delhi,Household,Tissue Paper,222.07,1.0,Normal,Card,4.1,222.07
+INV-1007,2024-03-25,A,Kanpur,Snacks,Biscuits,43.99,2.0,Member,Card,4.4,87.98
+INV-1008,2024-01-21,C,Mumbai,Bakery,Muffin,102.91,3.0,Normal,Cash,2.8,308.73
+INV-1009,2024-02-19,C,Mumbai,Snacks,Chocolate Bar,95.43,6.0,Member,Cash,4.6,572.58
+INV-1010,2024-02-22,C,Mumbai,Dairy,Yogurt,46.78,10.0,Normal,Cash,4.1,467.8
+INV-1011,2024-05-09,C,Mumbai,Bakery,Croissant,48.32,9.0,Member,Card,4.3,434.88
+INV-1012,2024-03-09,B,Delhi,Beverages,Cheese,207.43,5.0,Member,Cash,2.8,1037.15
+INV-1013,2024-02-17,A,Kanpur,Beverages,Cola,165.37,10.0,Normal,UPI,4.9,1653.7
+INV-1014,2024-06-11,C,Mumbai,Bakery,Muffin,62.83,5.0,Member,UPI,4.3,314.15
+INV-1015,2024-01-26,B,Delhi,Beverages,Cola,141.36,9.0,Normal,Cash,4.0,1272.24
+INV-1016,2024-03-29,C,Mumbai,Beverages,Mineral Water,91.4,2.0,Member,UPI,5.0,182.8
+INV-1017,2024-01-28,B,Delhi,Beverages,Orange Juice,112.97,10.0,Member,Cash,3.8,1129.7
+INV-1018,2024-03-28,B,Delhi,Household,Floor Cleaner,61.51,3.0,Normal,Card,3.3,184.53
+INV-1019,2024-01-02,B,Delhi,Dairy,Ghee,144.55,4.0,Member,UPI,4.7,578.2
+INV-1020,2024-05-01,A,Kanpur,Fruits & Vegetables,Potatoes,26.4,7.0,Member,Cash,5.0,184.8
+INV-1021,2024-03-23,C,Mumbai,Beverages,Mineral Water,59.99,10.0,Normal,UPI,3.4,599.9
+INV-1022,2024-04-02,B,Delhi,Personal Care,Face Wash,137.28,7.0,Member,Card,4.3,960.96
+INV-1023,2024-01-21,A,Kanpur,Bakery,Cookies,136.46,10.0,Normal,Card,3.9,1364.6
+INV-1024,2024-03-08,B,Delhi,Household,Tissue Paper,212.03,5.0,Member,Card,4.1,1060.15
+INV-1025,2024-02-20,C,Mumbai,Dairy,Milk 1L,228.38,2.0,Member,Cash,3.2,456.76
+INV-1026,2024-01-03,C,Mumbai,Personal Care,Toothpaste,214.55,10.0,Member,UPI,4.4,2145.5
+INV-1027,2024-01-16,A,Kanpur,Fruits & Vegetables,Potatoes,76.02,7.0,Member,Card,4.6,532.14
+INV-1028,2024-03-12,A,Kanpur,Beverages,Green Tea,168.41,1.0,Member,Cash,4.4,168.41
+INV-1029,2024-05-14,C,Mumbai,Dairy,Ghee,40.2,10.0,Normal,UPI,4.1,402.0
+INV-1030,2024-03-25,C,Mumbai,Fruits & Vegetables,Tomatoes,132.25,5.0,Normal,UPI,4.8,661.25
+INV-1031,2024-01-22,C,Mumbai,Household,Detergent,203.08,3.0,Normal,Cash,3.6,609.24
+INV-1032,2024-03-22,B,Delhi,Snacks,Namkeen,124.1,3.0,Member,UPI,3.2,372.3
+INV-1033,2024-06-13,C,Mumbai,Beverages,Coffee Powder,123.39,1.0,Normal,UPI,3.8,123.39
+INV-1034,2024-01-21,A,Kanpur,Dairy,Ghee,63.79,5.0,Member,UPI,4.2,318.95
+INV-1035,2024-05-22,A,Kanpur,Fruits & Vegetables,Tomatoes,56.33,7.0,Member,Cash,4.0,394.31
+INV-1036,2024-02-14,A,Kanpur,Beverages,Coffee Powder,57.88,3.0,Normal,UPI,3.5,173.64
+INV-1037,2024-05-30,B,Delhi,Fruits & Vegetables,Potatoes,102.51,2.0,Member,Card,2.8,205.02
+INV-1038,2024-04-25,C,Mumbai,Personal Care,Face Wash,339.12,7.0,Normal,UPI,3.8,2373.84
+INV-1039,2024-03-19,B,Delhi,Household,Floor Cleaner,140.12,5.0,Normal,UPI,3.7,700.6
+INV-1040,2024-03-06,B,Delhi,Dairy,Yogurt,110.85,6.0,Member,UPI,3.3,665.1
+INV-1041,2024-03-29,A,Kanpur,Personal Care,Soap,194.27,10.0,Member,Cash,5.0,1942.7
+INV-1042,2024-05-12,C,Mumbai,Fruits & Vegetables,Onions,89.05,2.0,Member,Cash,3.9,178.1
+INV-1043,2024-01-31,B,Delhi,Beverages,Mineral Water,33.52,8.0,Normal,UPI,3.2,268.16
+INV-1044,2024-06-19,B,Delhi,Household,Floor Cleaner,246.73,10.0,Member,Cash,3.5,2467.3
+INV-1045,2024-04-03,B,Delhi,Beverages,Cheese,177.03,7.0,Normal,Card,4.3,1239.21
+INV-1046,2024-01-22,B,Delhi,Personal Care,Toothpaste,85.92,8.0,Member,Cash,4.6,687.36
+INV-1047,2024-02-26,C,Mumbai,Snacks,Biscuits,148.81,4.0,Member,UPI,3.9,595.24
+INV-1048,2024-03-09,A,Kanpur,Personal Care,Shampoo,181.37,8.0,Normal,Cash,3.4,1450.96
+INV-1049,2024-06-07,C,Mumbai,Fruits & Vegetables,Bananas,137.3,4.0,Normal,UPI,5.0,549.2
+INV-1050,2024-01-03,A,Kanpur,Fruits & Vegetables,Onions,87.04,6.0,Member,Card,3.1,522.24
+INV-1051,2024-01-08,B,Delhi,Bakery,White Bread,139.81,4.0,Normal,UPI,2.4,559.24
+INV-1052,2024-06-28,A,Kanpur,Household,Floor Cleaner,67.67,7.0,Normal,Cash,4.5,473.69
+INV-1053,2024-06-12,C,Mumbai,Beverages,Orange Juice,50.02,3.0,Member,Card,4.4,150.06
+INV-1054,2024-02-12,A,Kanpur,Beverages,Cheese,201.22,10.0,Normal,UPI,4.5,2012.2
+INV-1055,2024-04-07,C,Mumbai,Household,Floor Cleaner,272.32,7.0,Member,UPI,3.9,1906.24
+INV-1056,2024-02-04,C,Mumbai,Household,Tissue Paper,93.23,1.0,Member,Cash,5.0,93.23
+INV-1057,2024-05-18,B,Delhi,Beverages,Cheese,46.96,8.0,Normal,UPI,3.6,375.68
+INV-1058,2024-04-13,C,Mumbai,Bakery,White Bread,140.9,9.0,Member,Card,3.8,1268.1
+INV-1059,2024-06-13,B,Delhi,Snacks,Namkeen,132.87,7.0,Member,Cash,4.2,930.09
+INV-1060,2024-02-24,A,Kanpur,Beverages,Cola,64.49,1.0,Member,Cash,4.0,64.49
+INV-1061,2024-03-26,B,Delhi,Bakery,Cookies,98.54,3.0,Member,UPI,3.8,295.62
+INV-1062,2024-05-06,A,Kanpur,Fruits & Vegetables,Tomatoes,74.41,6.0,Normal,Cash,4.4,446.46
+INV-1063,2024-01-24,C,Mumbai,Fruits & Vegetables,Bananas,89.13,5.0,Normal,Card,4.1,445.65
+INV-1064,2024-02-26,B,Delhi,Fruits & Vegetables,Potatoes,98.99,3.0,Normal,Cash,4.4,296.97
+INV-1065,2024-01-12,A,Kanpur,Household,Floor Cleaner,112.96,1.0,Member,UPI,4.6,112.96
+INV-1066,2024-03-08,A,Kanpur,Household,Tissue Paper,262.7,5.0,Member,Cash,2.9,1313.5
+INV-1067,2024-05-15,B,Delhi,Personal Care,Shampoo,281.63,10.0,Member,Cash,2.9,2816.3
+INV-1068,2024-01-30,C,Mumbai,Beverages,Cola,60.33,5.0,Member,Card,5.0,301.65
+INV-1069,2024-05-30,B,Delhi,Household,Floor Cleaner,76.81,10.0,Member,UPI,5.0,768.1
+INV-1070,2024-02-02,B,Delhi,Fruits & Vegetables,Onions,30.82,4.0,Normal,UPI,2.9,123.28
+INV-1071,2024-06-02,A,Kanpur,Fruits & Vegetables,Potatoes,66.8,6.0,Member,UPI,3.4,400.8
+INV-1072,2024-03-06,C,Mumbai,Snacks,Biscuits,118.1,8.0,Normal,UPI,4.3,944.8
+INV-1073,2024-03-10,B,Delhi,Household,Tissue Paper,171.25,9.0,Normal,Cash,,1541.25
+INV-1074,2024-03-12,B,Delhi,Fruits & Vegetables,Apples,26.02,1.0,Normal,Cash,3.5,26.02
+INV-1075,2024-04-11,B,Delhi,Beverages,Orange Juice,168.39,1.0,Member,UPI,3.0,168.39
+INV-1076,2024-06-25,A,Kanpur,Snacks,Potato Chips,96.05,8.0,Normal,Cash,3.8,768.4
+INV-1077,2024-04-26,C,Mumbai,Snacks,Namkeen,134.33,10.0,Member,Card,3.2,1343.3
+INV-1078,2024-05-12,C,Mumbai,Personal Care,Soap,377.57,9.0,Normal,UPI,2.8,3398.13
+INV-1079,2024-01-14,A,Kanpur,Household,Floor Cleaner,296.24,5.0,Member,Card,4.4,1481.2
+INV-1080,2024-06-15,A,Kanpur,Fruits & Vegetables,Onions,99.22,3.0,Normal,UPI,2.8,297.66
+INV-1081,2024-03-11,A,Kanpur,Beverages,Coffee Powder,134.12,7.0,Normal,Card,3.1,938.84
+INV-1082,2024-06-03,A,Kanpur,Dairy,Ghee,166.82,3.0,Member,Cash,3.6,500.46
+INV-1083,2024-05-20,A,Kanpur,Bakery,Muffin,108.95,9.0,Member,Card,5.0,980.55
+INV-1084,2024-02-19,A,Kanpur,Fruits & Vegetables,Potatoes,56.68,2.0,Normal,UPI,4.4,113.36
+INV-1085,2024-01-22,B,Delhi,Snacks,Chocolate Bar,139.85,9.0,Member,UPI,3.9,1258.65
+INV-1086,2024-06-13,C,Mumbai,Snacks,Chocolate Bar,101.38,5.0,Normal,UPI,5.0,506.9
+INV-1087,2024-06-08,A,Kanpur,Dairy,Yogurt,129.72,1.0,Normal,UPI,3.8,129.72
+INV-1088,2024-02-12,C,Mumbai,Fruits & Vegetables,Potatoes,53.16,4.0,Member,Card,3.6,212.64
+INV-1089,2024-01-11,C,Mumbai,Fruits & Vegetables,Onions,50.44,7.0,Member,UPI,5.0,353.08
+INV-1090,2024-06-28,C,Mumbai,Household,Tissue Paper,172.68,10.0,Normal,Card,3.6,1726.8
+INV-1091,2024-01-26,C,Mumbai,Beverages,Orange Juice,41.67,6.0,Normal,Cash,3.8,250.02
+INV-1092,2024-03-22,C,Mumbai,Beverages,Cheese,41.19,10.0,Normal,UPI,3.8,411.9
+INV-1093,2024-02-11,A,Kanpur,Bakery,Muffin,112.27,1.0,Member,UPI,3.8,112.27
+INV-1094,2024-01-01,A,Kanpur,Beverages,Cola,158.04,2.0,Normal,Cash,2.9,316.08
+INV-1095,2024-06-04,B,Delhi,Household,Detergent,107.69,9.0,Member,UPI,2.9,969.21
+INV-1096,2024-01-09,A,Kanpur,Dairy,Paneer,234.68,5.0,Member,Cash,4.0,1173.4
+INV-1097,2024-03-26,A,Kanpur,Beverages,Cheese,31.69,10.0,Member,UPI,2.4,316.9
+INV-1098,2024-01-01,B,Delhi,Fruits & Vegetables,Apples,104.19,5.0,Normal,Cash,4.4,520.95
+INV-1099,2024-05-12,C,Mumbai,Household,Detergent,311.85,3.0,Normal,Card,4.8,935.55
+INV-1100,2024-02-08,B,Delhi,Household,Floor Cleaner,196.19,3.0,Member,UPI,4.4,588.57
+INV-1101,2024-05-28,A,Kanpur,Bakery,Brown Bread,45.69,1.0,Normal,Cash,5.0,45.69
+INV-1102,2024-05-04,C,Mumbai,Fruits & Vegetables,Apples,30.25,7.0,Member,Cash,3.1,211.75
+INV-1103,2024-03-15,A,Kanpur,Beverages,Mineral Water,113.54,10.0,Member,Card,4.0,1135.4
+INV-1104,2024-02-23,C,Mumbai,Dairy,Yogurt,46.83,2.0,Normal,Card,3.9,93.66
+INV-1105,2024-05-15,B,Delhi,Dairy,Ghee,85.81,9.0,Normal,Cash,4.2,772.29
+INV-1106,2024-03-16,C,Mumbai,Fruits & Vegetables,Onions,113.32,2.0,Normal,UPI,3.6,226.64
+INV-1107,2024-03-05,B,Delhi,Bakery,Cookies,136.21,1.0,Member,Cash,4.2,136.21
+INV-1108,2024-06-13,A,Kanpur,Beverages,Coffee Powder,157.44,10.0,Member,Cash,2.7,1574.4
+INV-1109,2024-05-20,C,Mumbai,Bakery,Croissant,136.5,6.0,Normal,Cash,3.2,819.0
+INV-1110,2024-05-13,C,Mumbai,Household,Floor Cleaner,71.28,5.0,Member,Card,4.0,356.4
+INV-1111,2024-04-13,C,Mumbai,Personal Care,Soap,166.33,4.0,Normal,UPI,4.7,665.32
+INV-1112,2024-03-11,B,Delhi,Beverages,Coffee Powder,80.35,4.0,Member,UPI,4.3,321.4
+INV-1113,2024-03-27,B,Delhi,Personal Care,Soap,79.68,3.0,Normal,Card,3.5,239.04
+INV-1114,2024-02-16,A,Kanpur,Fruits & Vegetables,Apples,64.18,5.0,Member,Cash,4.5,320.9
+INV-1115,2024-01-19,C,Mumbai,Fruits & Vegetables,Potatoes,45.42,2.0,Normal,Card,4.1,90.84
+INV-1116,2024-02-24,C,Mumbai,Personal Care,Face Wash,76.61,10.0,Normal,UPI,2.8,766.1
+INV-1117,2024-04-04,B,Delhi,Fruits & Vegetables,Tomatoes,41.59,2.0,Member,Card,3.5,83.18
+INV-1118,2024-05-16,A,Kanpur,Bakery,Muffin,75.61,2.0,Normal,UPI,3.6,151.22
+INV-1119,2024-01-12,A,Kanpur,Personal Care,Soap,129.36,2.0,Normal,UPI,4.3,258.72
+INV-1120,2024-06-06,A,Kanpur,Snacks,Chocolate Bar,122.16,6.0,Member,Cash,4.9,732.96
+INV-1121,2024-03-11,A,Kanpur,Beverages,Cheese,277.31,10.0,Normal,Cash,3.9,2773.1
+INV-1122,2024-06-20,B,Delhi,Beverages,Mineral Water,40.11,2.0,Normal,Card,4.2,80.22
+INV-1123,2024-06-13,B,Delhi,Dairy,Milk 1L,36.61,3.0,Member,Card,4.6,109.83
+INV-1124,2024-02-03,B,Delhi,Bakery,Muffin,91.49,7.0,Normal,Card,1.4,640.43
+INV-1125,2024-04-28,B,Delhi,Beverages,Green Tea,74.62,10.0,Member,UPI,3.7,746.2
+INV-1126,2024-03-19,C,Mumbai,Household,Tissue Paper,113.04,6.0,Normal,UPI,3.0,678.24
+INV-1127,2024-01-28,A,Kanpur,Beverages,Cola,40.64,5.0,Member,Cash,4.1,203.2
+INV-1128,2024-04-28,B,Delhi,Snacks,Popcorn,75.33,4.0,Normal,Cash,4.3,301.32
+INV-1129,2024-05-15,B,Delhi,Beverages,Cheese,220.01,8.0,Member,Card,3.8,1760.08
+INV-1130,2024-05-12,B,Delhi,Personal Care,Soap,159.9,8.0,Member,Cash,4.5,1279.2
+INV-1131,2024-02-16,B,Delhi,Personal Care,Toothpaste,244.12,5.0,Member,UPI,4.4,1220.6
+INV-1132,2024-04-29,A,Kanpur,Snacks,Potato Chips,98.66,8.0,Member,UPI,5.0,789.28
+INV-1133,2024-02-20,C,Mumbai,Household,Floor Cleaner,228.47,3.0,Member,UPI,4.4,685.41
+INV-1134,2024-06-20,C,Mumbai,Dairy,Paneer,172.43,8.0,Normal,UPI,4.0,1379.44
+INV-1135,2024-06-22,B,Delhi,Personal Care,Soap,255.63,4.0,Member,UPI,4.0,1022.52
+INV-1136,2024-02-27,B,Delhi,Personal Care,Soap,306.2,4.0,Normal,Cash,4.1,1224.8
+INV-1137,2024-06-28,B,Delhi,Dairy,Yogurt,233.25,10.0,Normal,Card,3.1,2332.5
+INV-1138,2024-04-26,C,Mumbai,Fruits & Vegetables,Onions,68.34,7.0,Member,UPI,4.3,478.38
+INV-1139,2024-03-22,B,Delhi,Dairy,Paneer,219.33,9.0,Member,UPI,3.2,1973.97
+INV-1140,2024-03-11,C,Mumbai,Beverages,Green Tea,153.58,2.0,Normal,UPI,4.1,307.16
+INV-1141,2024-02-14,B,Delhi,Fruits & Vegetables,Potatoes,117.99,10.0,Member,UPI,4.3,1179.9
+INV-1142,2024-02-01,C,Mumbai,Snacks,Namkeen,39.26,6.0,Member,Cash,4.0,235.56
+INV-1143,2024-02-27,C,Mumbai,Snacks,Potato Chips,157.77,10.0,Member,Card,4.7,1577.7
+INV-1144,2024-05-01,B,Delhi,Bakery,Brown Bread,31.43,4.0,Member,Card,3.0,125.72
+INV-1145,2024-04-12,C,Mumbai,Bakery,Brown Bread,138.79,4.0,Normal,Card,4.1,555.16
+INV-1146,2024-01-13,A,Kanpur,Beverages,Coffee Powder,105.41,3.0,Member,UPI,3.5,316.23
+INV-1147,2024-04-09,C,Mumbai,Beverages,Cola,163.11,7.0,Member,Card,3.4,1141.77
+INV-1148,2024-02-16,C,Mumbai,Beverages,Mineral Water,96.47,6.0,Normal,Cash,4.0,578.82
+INV-1149,2024-03-01,B,Delhi,Bakery,Croissant,51.05,3.0,Normal,UPI,4.3,153.15
+INV-1150,2024-06-27,A,Kanpur,Household,Dish Soap,143.61,7.0,Member,Cash,4.5,1005.27
+INV-1151,2024-06-19,B,Delhi,Household,Floor Cleaner,266.94,10.0,Member,UPI,3.7,2669.4
+INV-1152,2024-05-07,C,Mumbai,Fruits & Vegetables,Apples,85.55,4.0,Member,UPI,3.2,342.2
+INV-1153,2024-05-15,B,Delhi,Dairy,Butter,196.74,5.0,Normal,Cash,4.1,983.7
+INV-1154,2024-05-01,B,Delhi,Dairy,Butter,154.1,7.0,Member,UPI,3.0,1078.7
+INV-1155,2024-03-02,C,Mumbai,Snacks,Biscuits,142.11,2.0,Normal,Card,4.5,284.22
+INV-1156,2024-02-08,B,Delhi,Beverages,Orange Juice,128.72,1.0,Member,UPI,3.6,128.72
+INV-1157,2024-03-02,A,Kanpur,Beverages,Mineral Water,71.26,9.0,Member,UPI,5.0,641.34
+INV-1158,2024-06-16,B,Delhi,Dairy,Butter,225.44,1.0,Member,UPI,2.7,225.44
+INV-1159,2024-03-20,B,Delhi,Beverages,Orange Juice,140.68,9.0,Normal,Cash,4.5,1266.12
+INV-1160,2024-04-13,B,Delhi,Dairy,Milk 1L,238.7,1.0,Normal,UPI,3.2,238.7
+INV-1161,2024-04-27,B,Delhi,Fruits & Vegetables,Apples,54.98,10.0,Member,Cash,4.0,549.8
+INV-1162,2024-04-16,A,Kanpur,Beverages,Orange Juice,158.58,1.0,Member,UPI,4.7,158.58
+INV-1163,2024-02-22,C,Mumbai,Personal Care,Face Wash,184.09,10.0,Member,Cash,3.4,1840.9
+INV-1164,2024-03-09,B,Delhi,Dairy,Paneer,106.06,1.0,Member,UPI,4.7,106.06
+INV-1165,2024-02-02,B,Delhi,Dairy,Paneer,196.22,6.0,Member,Card,4.5,1177.32
+INV-1166,2024-06-15,C,Mumbai,Beverages,Mineral Water,189.93,2.0,Normal,UPI,3.6,379.86
+INV-1167,2024-04-12,C,Mumbai,Fruits & Vegetables,Bananas,109.61,1.0,Normal,Cash,4.0,109.61
+INV-1168,2024-04-11,B,Delhi,Household,Floor Cleaner,137.0,9.0,Member,UPI,3.7,1233.0
+INV-1169,2024-06-22,B,Delhi,Fruits & Vegetables,Apples,116.18,10.0,Normal,UPI,3.3,1161.8
+INV-1170,2024-03-27,B,Delhi,Beverages,Coffee Powder,149.75,6.0,Normal,Card,3.3,898.5
+INV-1171,2024-05-07,B,Delhi,Bakery,White Bread,39.8,5.0,Normal,Card,4.3,199.0
+INV-1172,2024-05-04,C,Mumbai,Beverages,Orange Juice,115.62,5.0,Member,Cash,4.0,578.1
+INV-1173,2024-03-29,B,Delhi,Beverages,Mineral Water,103.56,5.0,Member,UPI,4.5,517.8
+INV-1174,2024-05-25,A,Kanpur,Personal Care,Toothpaste,171.5,3.0,Normal,UPI,4.5,514.5
+INV-1175,2024-04-28,C,Mumbai,Snacks,Namkeen,75.7,5.0,Normal,Card,5.0,378.5
+INV-1176,2024-06-17,C,Mumbai,Dairy,Milk 1L,241.64,4.0,Normal,UPI,4.5,966.56
+INV-1177,2024-01-31,C,Mumbai,Beverages,Green Tea,189.02,6.0,Member,Cash,4.6,1134.12
+INV-1178,2024-06-22,B,Delhi,Beverages,Coffee Powder,65.77,2.0,Member,Card,4.7,131.54
+INV-1179,2024-06-22,C,Mumbai,Personal Care,Soap,356.0,9.0,Normal,Cash,4.1,3204.0
+INV-1180,2024-03-10,C,Mumbai,Snacks,Popcorn,87.18,9.0,Member,UPI,4.9,784.62
+INV-1181,2024-06-03,A,Kanpur,Household,Tissue Paper,281.98,5.0,Normal,UPI,4.3,1409.9
+INV-1182,2024-06-24,C,Mumbai,Dairy,Butter,170.79,9.0,Member,UPI,3.8,1537.11
+INV-1183,2024-06-04,A,Kanpur,Beverages,Cheese,268.06,7.0,Normal,UPI,3.7,1876.42
+INV-1184,2024-02-10,C,Mumbai,Personal Care,Soap,164.19,5.0,Member,Card,4.0,820.95
+INV-1185,2024-05-18,C,Mumbai,Fruits & Vegetables,Tomatoes,55.88,2.0,Normal,Cash,4.6,111.76
+INV-1186,2024-01-20,A,Kanpur,Personal Care,Soap,106.37,9.0,Normal,Cash,3.9,957.33
+INV-1187,2024-02-13,B,Delhi,Personal Care,Shampoo,193.38,5.0,Member,UPI,3.0,966.9
+INV-1188,2024-06-10,C,Mumbai,Beverages,Orange Juice,198.32,5.0,Normal,UPI,4.3,991.6
+INV-1189,2024-05-20,C,Mumbai,Household,Floor Cleaner,242.59,5.0,Normal,UPI,4.2,1212.95
+INV-1190,2024-04-01,C,Mumbai,Bakery,Muffin,91.57,4.0,Normal,Cash,3.0,366.28
+INV-1191,2024-01-18,C,Mumbai,Beverages,Cola,139.79,2.0,Normal,UPI,5.0,279.58
+INV-1192,2024-04-05,A,Kanpur,Beverages,Coffee Powder,66.61,4.0,Normal,Card,4.5,266.44
+INV-1193,2024-05-07,A,Kanpur,Bakery,Muffin,43.43,5.0,Member,UPI,4.0,217.15
+INV-1194,2024-05-14,C,Mumbai,Beverages,Mineral Water,113.21,6.0,Normal,Cash,3.6,679.26
+INV-1195,2024-02-01,A,Kanpur,Bakery,White Bread,83.44,2.0,Member,UPI,4.0,166.88
+INV-1196,2024-02-24,A,Kanpur,Beverages,Orange Juice,90.21,8.0,Member,UPI,4.1,721.68
+INV-1197,2024-03-31,C,Mumbai,Fruits & Vegetables,Onions,127.24,7.0,Normal,Card,3.9,890.68
+INV-1198,2024-03-26,B,Delhi,Beverages,Green Tea,22.53,6.0,Normal,UPI,4.2,135.18
+INV-1199,2024-04-30,B,Delhi,Household,Floor Cleaner,98.55,2.0,Normal,Card,3.3,197.1
+INV-1200,2024-04-19,C,Mumbai,Dairy,Ghee,129.05,9.0,Normal,UPI,3.4,1161.45
+INV-1201,2024-01-01,A,Kanpur,Beverages,Orange Juice,29.27,2.0,Normal,UPI,3.0,58.54
+INV-1202,2024-02-17,A,Kanpur,Beverages,Green Tea,149.92,10.0,Normal,UPI,3.4,1499.2
+INV-1203,2024-05-19,C,Mumbai,Dairy,Ghee,263.91,3.0,Member,Cash,4.0,791.73
+INV-1204,2024-01-01,C,Mumbai,Bakery,Muffin,139.99,7.0,Normal,Card,4.2,979.93
+INV-1205,2024-02-12,A,Kanpur,Fruits & Vegetables,Onions,24.35,9.0,Member,Card,2.3,219.15
+INV-1206,2024-06-04,A,Kanpur,Bakery,White Bread,84.93,8.0,Normal,Cash,4.3,679.44
+INV-1207,2024-03-15,B,Delhi,Bakery,Brown Bread,55.73,10.0,Normal,Card,4.8,557.3
+INV-1208,2024-02-22,A,Kanpur,Beverages,Cola,94.21,3.0,Normal,Card,3.7,282.63
+INV-1209,2024-03-13,A,Kanpur,Dairy,Milk 1L,59.71,3.0,Normal,UPI,5.0,179.13
+INV-1210,2024-04-25,B,Delhi,Beverages,Coffee Powder,45.91,8.0,Normal,UPI,4.1,367.28
+INV-1211,2024-04-18,C,Mumbai,Household,Dish Soap,62.71,3.0,Member,Cash,4.1,188.13
+INV-1212,2024-06-06,C,Mumbai,Personal Care,Shampoo,299.71,1.0,Normal,Card,4.3,299.71
+INV-1213,2024-05-29,C,Mumbai,Dairy,Yogurt,92.77,2.0,Normal,Cash,3.9,185.54
+INV-1214,2024-04-04,C,Mumbai,Dairy,Paneer,221.17,3.0,Member,Card,2.8,663.51
+INV-1215,2024-04-17,C,Mumbai,Personal Care,Shampoo,178.3,10.0,Normal,Card,3.5,1783.0
+INV-1216,2024-06-25,C,Mumbai,Dairy,Yogurt,225.15,7.0,Normal,UPI,3.8,1576.05
+INV-1217,2024-02-27,B,Delhi,Fruits & Vegetables,Apples,102.11,7.0,Member,UPI,3.3,714.77
+INV-1218,2024-06-04,B,Delhi,Beverages,Mineral Water,75.72,9.0,Member,UPI,4.6,681.48
+INV-1219,2024-04-08,A,Kanpur,Snacks,Chocolate Bar,123.99,3.0,Normal,Card,3.1,371.97
+INV-1220,2024-06-21,C,Mumbai,Dairy,Yogurt,85.13,4.0,Normal,Cash,2.4,340.52
+INV-1221,2024-01-11,B,Delhi,Fruits & Vegetables,Bananas,82.25,5.0,Member,Card,3.6,411.25
+INV-1222,2024-06-11,B,Delhi,Beverages,Cola,175.58,2.0,Normal,UPI,4.4,351.16
+INV-1223,2024-04-05,A,Kanpur,Beverages,Orange Juice,31.41,2.0,Normal,UPI,4.1,62.82
+INV-1224,2024-06-07,B,Delhi,Household,Floor Cleaner,204.04,5.0,Normal,Cash,3.0,1020.2
+INV-1225,2024-05-15,B,Delhi,Bakery,White Bread,46.21,5.0,Normal,UPI,3.7,231.05
+INV-1226,2024-01-14,C,Mumbai,Dairy,Butter,213.22,9.0,Normal,UPI,4.6,1918.98
+INV-1227,2024-01-28,C,Mumbai,Personal Care,Shampoo,241.28,3.0,Normal,Cash,5.0,723.84
+INV-1228,2024-05-02,A,Kanpur,Snacks,Biscuits,100.97,6.0,Member,Cash,3.9,605.82
+INV-1229,2024-01-07,A,Kanpur,Dairy,Butter,193.44,5.0,Member,Card,3.7,967.2
+INV-1230,2024-06-16,B,Delhi,Fruits & Vegetables,Onions,80.07,8.0,Normal,Cash,3.2,640.56
+INV-1231,2024-04-02,C,Mumbai,Beverages,Cola,115.32,6.0,Normal,Cash,4.8,691.92
+INV-1232,2024-01-01,A,Kanpur,Dairy,Yogurt,50.94,6.0,Member,Card,2.7,305.64
+INV-1233,2024-03-12,A,Kanpur,Fruits & Vegetables,Potatoes,113.81,2.0,Member,Cash,4.3,227.62
+INV-1234,2024-06-12,B,Delhi,Snacks,Biscuits,47.68,3.0,Normal,Card,4.7,143.04
+INV-1235,2024-01-20,C,Mumbai,Dairy,Paneer,92.71,3.0,Normal,Card,4.6,278.13
+INV-1236,2024-04-05,C,Mumbai,Household,Tissue Paper,305.33,4.0,Normal,UPI,4.6,1221.32
+INV-1237,2024-02-01,C,Mumbai,Personal Care,Face Wash,315.69,10.0,Member,Cash,4.4,3156.9
+INV-1238,2024-02-29,C,Mumbai,Bakery,Croissant,130.52,5.0,Member,UPI,2.9,652.6
+INV-1239,2024-02-15,B,Delhi,Dairy,Milk 1L,151.88,8.0,Member,UPI,3.5,1215.04
+INV-1240,2024-04-14,A,Kanpur,Beverages,Mineral Water,28.79,10.0,Member,Card,4.3,287.9
+INV-1241,2024-04-08,B,Delhi,Bakery,Muffin,33.97,5.0,Normal,Card,4.1,169.85
+INV-1242,2024-04-28,C,Mumbai,Fruits & Vegetables,Bananas,33.22,9.0,Normal,Cash,3.2,298.98
+INV-1243,2024-03-27,B,Delhi,Dairy,Ghee,109.13,5.0,Member,UPI,5.0,545.65
+INV-1244,2024-04-19,A,Kanpur,Bakery,Muffin,105.5,3.0,Normal,Card,4.4,316.5
+INV-1245,2024-01-30,A,Kanpur,Fruits & Vegetables,Onions,40.78,7.0,Member,UPI,2.9,285.46
+INV-1246,2024-02-06,A,Kanpur,Household,Detergent,280.68,5.0,Normal,UPI,4.4,1403.4
+INV-1247,2024-01-13,C,Mumbai,Beverages,Coffee Powder,207.8,8.0,Normal,Cash,4.4,1662.4
+INV-1248,2024-04-12,B,Delhi,Fruits & Vegetables,Potatoes,58.81,7.0,Member,Card,3.2,411.67
+INV-1249,2024-06-23,C,Mumbai,Household,Tissue Paper,189.27,5.0,Normal,Card,4.6,946.35
+INV-1250,2024-05-12,A,Kanpur,Fruits & Vegetables,Bananas,113.97,6.0,Member,Card,4.0,683.82
+INV-1251,2024-03-22,C,Mumbai,Dairy,Yogurt,254.61,7.0,Normal,Card,3.7,1782.27
+INV-1252,2024-05-15,C,Mumbai,Dairy,Milk 1L,51.21,8.0,Member,UPI,3.5,409.68
+INV-1253,2024-05-04,B,Delhi,Household,Dish Soap,287.77,5.0,Normal,UPI,4.1,1438.85
+INV-1254,2024-01-09,A,Kanpur,Beverages,Cola,130.01,2.0,Member,UPI,3.7,260.02
+INV-1255,2024-05-16,B,Delhi,Fruits & Vegetables,Apples,18.36,3.0,Normal,UPI,4.5,55.08
+INV-1256,2024-03-11,A,Kanpur,Dairy,Milk 1L,130.44,4.0,Normal,UPI,3.8,521.76
+INV-1257,2024-05-30,B,Delhi,Beverages,Mineral Water,75.17,6.0,Member,UPI,4.3,451.02
+INV-1258,2024-02-21,A,Kanpur,Fruits & Vegetables,Potatoes,95.2,10.0,Normal,Cash,3.6,952.0
+INV-1259,2024-01-15,C,Mumbai,Beverages,Cola,115.26,5.0,Member,Card,3.9,576.3
+INV-1260,2024-03-26,C,Mumbai,Dairy,Yogurt,162.23,3.0,Member,UPI,5.0,486.69
+INV-1261,2024-06-24,A,Kanpur,Fruits & Vegetables,Bananas,59.48,,Normal,Cash,3.4,59.48
+INV-1262,2024-02-20,B,Delhi,Household,Detergent,156.55,2.0,Normal,UPI,3.7,313.1
+INV-1263,2024-04-01,C,Mumbai,Beverages,Green Tea,27.69,4.0,Member,Cash,4.7,110.76
+INV-1264,2024-05-09,A,Kanpur,Bakery,Muffin,68.61,4.0,Member,UPI,3.3,274.44
+INV-1265,2024-06-20,B,Delhi,Dairy,Milk 1L,105.38,10.0,Member,Cash,4.8,1053.8
+INV-1266,2024-04-19,C,Mumbai,Beverages,Orange Juice,177.52,3.0,Normal,Cash,3.0,532.56
+INV-1267,2024-04-18,B,Delhi,Beverages,Cheese,154.94,7.0,Normal,UPI,4.4,1084.58
+INV-1268,2024-02-19,A,Kanpur,Beverages,Orange Juice,58.44,4.0,Member,UPI,3.1,233.76
+INV-1269,2024-02-22,B,Delhi,Bakery,Cookies,65.99,4.0,Member,UPI,3.2,263.96
+INV-1270,2024-02-26,C,Mumbai,Personal Care,Face Wash,227.39,10.0,Normal,Card,4.4,2273.9
+INV-1271,2024-03-21,C,Mumbai,Bakery,White Bread,137.91,8.0,Normal,UPI,5.0,1103.28
+INV-1272,2024-05-18,A,Kanpur,Snacks,Biscuits,24.1,7.0,Normal,Cash,3.3,168.7
+INV-1273,2024-06-02,A,Kanpur,Dairy,Ghee,39.34,5.0,Member,UPI,4.3,196.7
+INV-1274,2024-02-29,C,Mumbai,Dairy,Yogurt,252.43,8.0,Normal,UPI,4.0,2019.44
+INV-1275,2024-04-30,B,Delhi,Beverages,Green Tea,110.53,4.0,Member,Card,4.1,442.12
+INV-1276,2024-04-04,C,Mumbai,Personal Care,Face Wash,322.94,10.0,Member,Card,4.9,3229.4
+INV-1277,2024-02-02,A,Kanpur,Personal Care,Face Wash,219.16,2.0,Normal,UPI,3.3,438.32
+INV-1278,2024-04-29,A,Kanpur,Fruits & Vegetables,Potatoes,42.15,1.0,Member,Card,4.1,42.15
+INV-1279,2024-05-09,A,Kanpur,Dairy,Milk 1L,187.97,6.0,Member,UPI,3.3,1127.82
+INV-1280,2024-06-15,B,Delhi,Household,Floor Cleaner,165.42,8.0,Member,UPI,2.8,1323.36
+INV-1281,2024-03-26,C,Mumbai,Dairy,Butter,144.1,4.0,Member,Card,4.0,576.4
+INV-1282,2024-03-02,A,Kanpur,Beverages,Green Tea,124.6,2.0,Normal,UPI,3.3,249.2
+INV-1283,2024-03-25,C,Mumbai,Household,Detergent,136.21,2.0,Normal,UPI,3.3,272.42
+INV-1284,2024-02-17,A,Kanpur,Bakery,Brown Bread,49.62,7.0,Normal,UPI,3.4,347.34
+INV-1285,2024-06-13,B,Delhi,Household,Dish Soap,192.76,4.0,Normal,,3.7,771.04
+INV-1286,2024-06-26,A,Kanpur,Bakery,Muffin,112.29,6.0,Member,UPI,3.4,673.74
+INV-1287,2024-03-21,A,Kanpur,Snacks,Potato Chips,106.81,6.0,Normal,Cash,3.5,640.86
+INV-1288,2024-02-08,C,Mumbai,Household,Floor Cleaner,56.07,8.0,Normal,Cash,4.3,448.56
+INV-1289,2024-01-15,A,Kanpur,Dairy,Paneer,74.96,8.0,Member,Card,3.9,599.68
+INV-1290,2024-04-19,A,Kanpur,Personal Care,Shampoo,262.46,6.0,Member,UPI,3.6,1574.76
+INV-1291,2024-06-06,C,Mumbai,Beverages,Coffee Powder,163.02,1.0,Normal,Cash,2.3,163.02
+INV-1292,2024-04-17,B,Delhi,Fruits & Vegetables,Tomatoes,60.27,3.0,Normal,Card,3.4,180.81
+INV-1293,2024-04-20,B,Delhi,Beverages,Green Tea,66.0,4.0,Member,Card,2.7,264.0
+INV-1294,2024-01-15,A,Kanpur,Beverages,Coffee Powder,84.52,8.0,Member,Card,3.1,676.16
+INV-1295,2024-05-12,A,Kanpur,Fruits & Vegetables,Tomatoes,75.95,5.0,Member,Card,4.2,379.75
+INV-1296,2024-01-13,C,Mumbai,Household,Detergent,154.48,7.0,Member,UPI,4.8,1081.36
+INV-1297,2024-06-08,A,Kanpur,Snacks,Potato Chips,123.51,1.0,Normal,UPI,3.8,123.51
+INV-1298,2024-05-23,C,Mumbai,Dairy,Milk 1L,167.78,3.0,Normal,Cash,4.9,503.34
+INV-1299,2024-05-17,A,Kanpur,Household,Floor Cleaner,164.19,1.0,Normal,Cash,4.2,164.19
+INV-1300,2024-03-24,B,Delhi,Bakery,Brown Bread,90.18,3.0,Member,UPI,4.0,270.54
+INV-1301,2024-01-18,B,Delhi,Beverages,Green Tea,116.34,9.0,Member,Cash,3.4,1047.06
+INV-1302,2024-05-17,A,Kanpur,Beverages,Orange Juice,27.56,3.0,Normal,UPI,4.7,82.68
+INV-1303,2024-06-23,A,Kanpur,Fruits & Vegetables,Apples,52.72,8.0,Member,Cash,3.3,421.76
+INV-1304,2024-04-17,A,Kanpur,Beverages,Orange Juice,108.84,7.0,Normal,Card,4.1,761.88
+INV-1305,2024-03-30,C,Mumbai,Dairy,Yogurt,104.92,6.0,Normal,Cash,3.3,629.52
+INV-1306,2024-02-12,B,Delhi,Fruits & Vegetables,Tomatoes,26.27,4.0,Normal,UPI,4.5,105.08
+INV-1307,2024-01-11,A,Kanpur,Beverages,Green Tea,35.51,8.0,Normal,Card,4.3,284.08
+INV-1308,2024-04-15,C,Mumbai,Snacks,Biscuits,138.21,9.0,Member,Cash,3.6,1243.89
+INV-1309,2024-05-04,B,Delhi,Snacks,Chocolate Bar,110.73,5.0,Normal,UPI,2.8,553.65
+INV-1310,2024-03-13,B,Delhi,Fruits & Vegetables,Tomatoes,20.15,5.0,Normal,Cash,3.7,100.75
+INV-1311,2024-05-31,C,Mumbai,Snacks,Namkeen,107.38,8.0,Normal,UPI,4.2,859.04
+INV-1312,2024-02-09,C,Mumbai,Snacks,Chocolate Bar,35.13,2.0,  member ,Card,4.9,70.26
+INV-1313,2024-02-29,B,Delhi,Dairy,Paneer,220.1,5.0,Normal,Cash,5.0,1100.5
+INV-1314,2024-03-31,A,Kanpur,Beverages,Cheese,141.75,6.0,Member,UPI,4.7,850.5
+INV-1315,2024-02-04,C,Mumbai,Bakery,Cookies,133.69,8.0,Normal,Card,4.2,1069.52
+INV-1316,2024-02-08,C,Mumbai,Personal Care,Shampoo,234.09,7.0,Normal,Cash,3.7,1638.63
+INV-1317,2024-05-20,C,Mumbai,Personal Care,Toothpaste,140.88,9.0,Normal,Card,3.7,1267.92
+INV-1318,2024-01-18,B,Delhi,Bakery,Muffin,39.93,3.0,Member,Card,3.9,119.79
+INV-1319,2024-02-22,A,Kanpur,Fruits & Vegetables,Potatoes,32.14,3.0,Normal,UPI,4.0,96.42
+INV-1320,2024-05-29,A,Kanpur,Personal Care,Face Wash,320.75,10.0,Normal,Cash,4.1,3207.5
+INV-1321,2024-01-01,C,Mumbai,Beverages,Cheese,205.82,10.0,Member,Cash,4.1,2058.2
+INV-1322,2024-03-08,B,Delhi,Dairy,Yogurt,146.06,9.0,Normal,UPI,4.5,1314.54
+INV-1323,2024-06-27,A,Kanpur,Fruits & Vegetables,Apples,82.59,5.0,Normal,UPI,4.9,412.95
+INV-1324,2024-04-21,A,Kanpur,Fruits & Vegetables,Bananas,18.25,9.0,Normal,Card,4.2,164.25
+INV-1325,2024-04-28,B,Delhi,Bakery,Croissant,37.49,1.0,Normal,Card,4.1,37.49
+INV-1326,2024-05-05,C,Mumbai,Household,Tissue Paper,207.74,3.0,Normal,UPI,4.4,623.22
+INV-1327,2024-02-06,A,Kanpur,Household,Detergent,90.6,1.0,Member,Cash,4.7,90.6
+INV-1328,2024-06-09,B,Delhi,Bakery,White Bread,120.96,7.0,Normal,UPI,3.4,846.72
+INV-1329,2024-05-07,C,Mumbai,Beverages,Cola,203.7,5.0,Member,Cash,4.5,1018.5
+INV-1330,2024-02-11,A,Kanpur,Beverages,Green Tea,118.27,9.0,Normal,UPI,3.9,1064.43
+INV-1331,2024-06-13,C,Mumbai,Fruits & Vegetables,Apples,48.87,8.0,Member,Card,5.0,390.96
+INV-1332,2024-04-12,C,Mumbai,Personal Care,Face Wash,140.99,10.0,Member,Cash,2.7,1409.9
+INV-1333,2024-02-03,A,Kanpur,Dairy,Ghee,139.24,1.0,Normal,Cash,4.3,139.24
+INV-1334,2024-02-05,B,Delhi,Dairy,Yogurt,211.05,4.0,Normal,Card,4.2,844.2
+INV-1335,2024-02-01,C,Mumbai,Dairy,Ghee,222.81,9.0,Normal,Card,5.0,2005.29
+INV-1336,2024-03-11,C,Mumbai,Snacks,Chocolate Bar,88.39,3.0,Normal,UPI,3.6,265.17
+INV-1337,2024-05-13,C,Mumbai,Bakery,Cookies,62.65,4.0,Normal,Card,4.6,250.6
+INV-1338,2024-03-12,B,Delhi,Fruits & Vegetables,Tomatoes,61.96,3.0,Normal,Cash,4.0,185.88
+INV-1339,2024-01-16,B,Delhi,Household,Tissue Paper,128.76,8.0,Normal,Card,4.1,1030.08
+INV-1340,2024-04-30,A,Kanpur,Snacks,Chocolate Bar,48.65,8.0,Member,Cash,3.3,389.2
+INV-1341,2024-06-18,B,Delhi,Household,Dish Soap,267.46,10.0,Member,Card,3.8,2674.6
+INV-1342,2024-05-26,C,Mumbai,Snacks,Namkeen,93.01,8.0,Normal,Cash,3.9,744.08
+INV-1343,2024-01-06,A,Kanpur,Beverages,Mineral Water,175.52,7.0,Member,UPI,4.1,1228.64
+INV-1344,2024-01-03,A,Kanpur,Fruits & Vegetables,Potatoes,119.04,5.0,Normal,Cash,4.3,595.2
+INV-1345,2024-04-03,B,Delhi,Bakery,Croissant,117.6,2.0,Normal,UPI,3.7,235.2
+INV-1346,2024-03-01,A,Kanpur,Dairy,Ghee,152.11,1.0,Member,Cash,3.8,152.11
+INV-1347,2024-06-03,B,Delhi,Snacks,Potato Chips,31.17,6.0,Normal,UPI,3.8,187.02
+INV-1348,2024-01-06,C,Mumbai,Dairy,Butter,79.92,10.0,Member,Card,3.1,799.2
+INV-1349,2024-03-19,A,Kanpur,Personal Care,Toothpaste,310.91,8.0,Normal,Cash,4.1,2487.28
+INV-1350,2024-06-19,C,Mumbai,Beverages,Mineral Water,74.81,6.0,Member,Cash,4.3,448.86
+INV-1351,2024-04-09,C,Mumbai,Beverages,Orange Juice,171.28,8.0,Normal,UPI,3.9,1370.24
+INV-1352,2024-01-19,A,Kanpur,Beverages,Mineral Water,38.71,8.0,Normal,UPI,2.8,309.68
+INV-1353,2024-02-10,C,Mumbai,Snacks,Biscuits,146.44,6.0,Normal,UPI,3.2,878.64
+INV-1354,2024-05-02,C,Mumbai,Fruits & Vegetables,Potatoes,89.13,6.0,Normal,Card,5.0,534.78
+INV-1355,2024-06-11,A,Kanpur,Fruits & Vegetables,Onions,40.7,2.0,Member,Card,4.7,81.4
+INV-1356,2024-01-08,A,Kanpur,Household,Dish Soap,220.31,5.0,Member,Cash,4.1,1101.55
+INV-1357,2024-06-24,B,Delhi,Bakery,White Bread,60.98,10.0,Normal,UPI,3.5,609.8
+INV-1358,2024-05-12,C,Mumbai,Fruits & Vegetables,Potatoes,44.65,6.0,Member,Cash,4.5,267.9
+INV-1359,2024-03-09,C,Mumbai,Snacks,Namkeen,106.85,7.0,Member,UPI,3.7,747.95
+INV-1360,2024-04-15,B,Delhi,Dairy,Yogurt,76.07,4.0,Member,UPI,4.1,304.28
+INV-1361,2024-03-24,B,Delhi,Bakery,Brown Bread,126.88,5.0,Member,Card,3.4,634.4
+INV-1362,2024-03-15,B,Delhi,Snacks,Biscuits,74.95,10.0,Normal,UPI,3.5,749.5
+INV-1363,2024-06-09,B,Delhi,Beverages,Coffee Powder,109.11,5.0,Normal,UPI,5.0,545.55
+INV-1364,2024-02-09,A,Kanpur,Dairy,Yogurt,56.07,9.0,Member,UPI,3.6,504.63
+INV-1365,2024-03-14,A,Kanpur,Beverages,Orange Juice,107.95,1.0,Member,Cash,2.9,107.95
+INV-1366,2024-04-21,C,Mumbai,Beverages,Cheese,77.44,7.0,Normal,Card,3.3,542.08
+INV-1367,2024-03-27,C,Mumbai,Dairy,Ghee,135.59,7.0,Normal,UPI,4.8,949.13
+INV-1368,2024-04-12,C,Mumbai,Personal Care,Toothpaste,79.96,4.0,Normal,UPI,3.6,319.84
+INV-1369,2024-04-09,C,Mumbai,Bakery,Brown Bread,65.4,2.0,Member,Cash,5.0,130.8
+INV-1370,2024-04-16,A,Kanpur,Snacks,Potato Chips,27.2,2.0,Normal,Cash,5.0,54.4
+INV-1371,2024-05-08,C,Mumbai,Fruits & Vegetables,Tomatoes,87.64,3.0,Normal,Cash,3.5,262.92
+INV-1372,2024-05-26,A,Kanpur,Beverages,Cheese,264.83,4.0,Member,UPI,4.2,1059.32
+INV-1373,2024-03-25,B,Delhi,Household,Dish Soap,267.58,10.0,Member,Card,4.1,2675.8
+INV-1374,2024-01-03,B,Delhi,Dairy,Ghee,64.55,6.0,Member,Card,3.5,387.3
+INV-1375,2024-06-27,C,Mumbai,Beverages,Green Tea,69.18,6.0,Member,UPI,3.0,415.08
+INV-1376,2024-06-16,B,Delhi,Snacks,Potato Chips,35.38,3.0,Normal,Card,4.4,106.14
+INV-1377,2024-05-14,C,Mumbai,Snacks,Biscuits,102.22,9.0,Member,Cash,5.0,919.98
+INV-1378,2024-04-19,A,Kanpur,Fruits & Vegetables,Apples,31.84,3.0,Normal,Card,4.6,95.52
+INV-1379,2024-04-21,B,Delhi,Fruits & Vegetables,Bananas,83.79,5.0,Member,Card,4.8,418.95
+INV-1380,2024-01-16,B,Delhi,Dairy,Ghee,194.05,1.0,Normal,Cash,5.0,194.05
+INV-1381,2024-06-06,A,Kanpur,Snacks,Namkeen,126.72,3.0,Normal,Cash,4.3,380.16
+INV-1382,2024-03-11,C,Mumbai,Beverages,Green Tea,78.34,4.0,Normal,Cash,3.3,313.36
+INV-1383,2024-03-09,B,Delhi,Beverages,Cola,157.55,3.0,Normal,UPI,4.2,472.65
+INV-1384,2024-05-07,A,Kanpur,Dairy,Milk 1L,246.78,2.0,Normal,UPI,4.7,493.56
+INV-1385,2024-02-26,C,Mumbai,Bakery,Brown Bread,134.71,10.0,Normal,Card,3.4,1347.1
+INV-1386,2024-04-26,C,Mumbai,Dairy,Paneer,239.58,9.0,Normal,Cash,3.7,2156.22
+INV-1387,2024-02-27,A,Kanpur,Dairy,Yogurt,161.51,3.0,Member,UPI,3.9,484.53
+INV-1388,2024-05-11,B,Delhi,Bakery,Brown Bread,47.74,2.0,Member,UPI,4.9,95.48
+INV-1389,2024-02-12,C,Mumbai,Snacks,Potato Chips,141.78,9.0,Normal,Cash,3.8,1276.02
+INV-1390,2024-05-16,A,Kanpur,Snacks,Namkeen,113.71,9.0,Member,UPI,3.5,1023.39
+INV-1391,2024-06-11,B,Delhi,Personal Care,Toothpaste,324.82,9.0,Normal,Card,5.0,2923.38
+INV-1392,2024-01-31,A,Kanpur,Bakery,White Bread,57.21,2.0,Normal,UPI,3.4,114.42
+INV-1393,2024-05-02,C,Mumbai,Snacks,Potato Chips,68.57,7.0,Member,Card,4.1,479.99
+INV-1394,2024-01-29,C,Mumbai,Snacks,Namkeen,84.9,2.0,Normal,UPI,3.7,169.8
+INV-1395,2024-02-15,A,Kanpur,Dairy,Ghee,129.92,4.0,Member,UPI,3.4,519.68
+INV-1396,2024-01-18,C,Mumbai,Personal Care,Shampoo,211.01,6.0,Member,Card,4.1,1266.06
+INV-1397,2024-03-14,C,Mumbai,Beverages,Cheese,129.16,9.0,Normal,UPI,4.6,1162.44
+INV-1398,2024-01-01,C,Mumbai,Snacks,Biscuits,132.55,4.0,Normal,UPI,4.7,530.2
+INV-1399,2024-01-22,A,Kanpur,Dairy,Milk 1L,42.52,1.0,Normal,UPI,3.2,42.52
+INV-1400,2024-05-04,A,Kanpur,Snacks,Popcorn,92.1,1.0,Member,UPI,5.0,92.1
+INV-1401,2024-01-24,B,Delhi,Personal Care,Soap,263.23,7.0,Normal,Cash,3.6,1842.61
+INV-1402,2024-06-17,B,Delhi,Beverages,Coffee Powder,101.16,7.0,Member,Cash,3.4,708.12
+INV-1403,2024-04-19,A,Kanpur,Beverages,Coffee Powder,158.25,8.0,Member,UPI,3.5,1266.0
+INV-1404,2024-03-10,B,Delhi,Snacks,Potato Chips,97.75,8.0,Normal,UPI,4.2,782.0
+INV-1405,2024-02-12,C,Mumbai,Household,Detergent,319.37,10.0,Normal,UPI,4.0,3193.7
+INV-1406,2024-05-22,A,Kanpur,Beverages,Cheese,128.17,10.0,Normal,UPI,5.0,1281.7
+INV-1407,2024-02-03,A,Kanpur,Dairy,Milk 1L,90.33,4.0,Normal,Card,5.0,361.32
+INV-1408,2024-03-28,C,Mumbai,Snacks,Potato Chips,49.77,4.0,Member,UPI,3.8,199.08
+INV-1409,2024-06-19,A,Kanpur,Beverages,Cheese,261.4,4.0,Member,UPI,4.2,1045.6
+INV-1410,2024-03-03,C,Mumbai,Dairy,Yogurt,62.63,3.0,Normal,Card,4.5,187.89
+INV-1411,2024-02-19,C,Mumbai,Fruits & Vegetables,Tomatoes,70.03,3.0,Normal,UPI,3.5,210.09
+INV-1412,2024-01-13,A,Kanpur,Beverages,Mineral Water,131.38,3.0,Normal,UPI,3.0,394.14
+INV-1413,2024-05-04,A,Kanpur,Household,Detergent,76.45,10.0,Normal,Cash,3.8,764.5
+INV-1414,2024-02-28,C,Mumbai,Household,Tissue Paper,187.24,2.0,Member,Cash,4.3,374.48
+INV-1415,2024-03-24,A,Kanpur,Beverages,Cheese,201.8,5.0,Member,UPI,4.7,1009.0
+INV-1416,2024-06-22,C,Mumbai,Fruits & Vegetables,Apples,74.81,1.0,Normal,Cash,2.7,74.81
+INV-1417,2024-06-14,A,Kanpur,Personal Care,Toothpaste,126.78,4.0,Normal,Cash,4.4,507.12
+INV-1418,2024-06-17,A,Kanpur,Fruits & Vegetables,Bananas,22.51,2.0,Normal,Cash,4.8,45.02
+INV-1419,2024-06-24,A,Kanpur,Beverages,Orange Juice,36.29,8.0,Member,UPI,4.2,290.32
+INV-1420,2024-03-14,C,Mumbai,Household,Detergent,232.02,10.0,Normal,Cash,3.0,2320.2
+INV-1421,2024-05-25,C,Mumbai,Dairy,Paneer,92.15,1.0,Member,Cash,4.1,92.15
+INV-1422,2024-01-29,B,Delhi,Bakery,Brown Bread,127.72,4.0,Member,Cash,3.8,510.88
+INV-1423,2024-02-06,C,Mumbai,Fruits & Vegetables,Potatoes,59.32,8.0,Member,UPI,4.7,474.56
+INV-1424,2024-05-02,B,Delhi,Fruits & Vegetables,Tomatoes,65.46,6.0,Normal,UPI,3.5,392.76
+INV-1425,2024-03-07,B,Delhi,Fruits & Vegetables,Bananas,49.68,4.0,Normal,Cash,4.2,198.72
+INV-1426,2024-04-01,C,Mumbai,Beverages,Cola,168.51,4.0,Member,UPI,4.4,674.04
+INV-1427,2024-04-11,B,Delhi,Personal Care,Shampoo,309.88,3.0,Normal,Cash,4.5,929.64
+INV-1428,2024-02-18,B,Delhi,Personal Care,Soap,181.78,2.0,Member,Cash,4.6,363.56
+INV-1429,2024-06-02,A,Kanpur,Snacks,Popcorn,28.97,10.0,Member,Cash,4.1,289.7
+INV-1430,2024-05-26,C,Mumbai,Fruits & Vegetables,Bananas,130.29,9.0,Normal,UPI,4.0,1172.61
+INV-1431,2024-03-19,A,Kanpur,Snacks,Popcorn,81.34,2.0,Member,UPI,3.2,162.68
+INV-1432,2024-03-02,C,Mumbai,Beverages,Mineral Water,184.0,5.0,Normal,UPI,4.1,920.0
+INV-1433,2024-06-11,B,Delhi,Beverages,Coffee Powder,167.89,9.0,Normal,Cash,3.7,1511.01
+INV-1434,2024-02-29,A,Kanpur,Beverages,Coffee Powder,109.91,10.0,Member,UPI,2.4,1099.1
+INV-1435,2024-02-17,A,Kanpur,Beverages,Cheese,137.15,4.0,Member,Cash,4.1,548.6
+INV-1436,2024-01-07,C,Mumbai,Snacks,Namkeen,91.48,1.0,Normal,Card,3.3,91.48
+INV-1437,2024-01-13,C,Mumbai,Beverages,Cheese,151.08,9.0,Member,Card,3.6,1359.72
+INV-1438,2024-03-20,B,Delhi,Dairy,Paneer,242.69,9.0,Member,Cash,4.4,2184.21
+INV-1439,2024-03-02,B,Delhi,Bakery,Cookies,138.63,9.0,Normal,Cash,3.5,1247.67
+INV-1440,2024-05-01,C,Mumbai,Fruits & Vegetables,Onions,102.88,3.0,Normal,UPI,4.0,308.64
+INV-1441,2024-06-11,C,Mumbai,Fruits & Vegetables,Apples,116.59,2.0,Normal,UPI,4.7,233.18
+INV-1442,2024-05-09,B,Delhi,Beverages,Cola,123.18,10.0,Normal,Cash,4.3,1231.8
+INV-1443,2024-06-13,C,Mumbai,Dairy,Yogurt,222.38,10.0,Normal,Card,4.1,2223.8
+INV-1444,2024-04-03,A,Kanpur,Fruits & Vegetables,Onions,95.36,6.0,Normal,UPI,4.0,572.16
+INV-1445,2024-06-25,B,Delhi,Bakery,Muffin,44.19,2.0,Normal,Cash,3.6,88.38
+INV-1446,2024-02-11,B,Delhi,Beverages,Cheese,228.2,8.0,Normal,UPI,3.3,1825.6
+INV-1447,2024-01-30,C,Mumbai,Fruits & Vegetables,Tomatoes,42.5,9.0,Normal,Cash,5.0,382.5
+INV-1448,2024-04-03,C,Mumbai,Household,Dish Soap,202.51,2.0,Member,Card,3.1,405.02
+INV-1449,2024-02-27,C,Mumbai,Snacks,Chocolate Bar,118.56,6.0,Normal,UPI,4.7,711.36
+INV-1450,2024-05-17,C,Mumbai,Fruits & Vegetables,Potatoes,112.79,2.0,Member,UPI,3.3,225.58
+INV-1451,2024-04-22,B,Delhi,Bakery,White Bread,57.08,9.0,Normal,UPI,3.8,513.72
+INV-1452,2024-05-24,B,Delhi,Snacks,Biscuits,129.82,9.0,Member,Cash,3.9,1168.38
+INV-1453,2024-04-12,A,Kanpur,Household,Dish Soap,249.56,4.0,Member,UPI,4.7,998.24
+INV-1454,2024-01-24,C,Mumbai,Personal Care,Face Wash,198.37,3.0,Normal,UPI,3.5,595.11
+INV-1455,2024-04-03,A,Kanpur,Beverages,Orange Juice,51.83,3.0,Member,Cash,3.1,155.49
+INV-1456,2024-01-29,C,Mumbai,Fruits & Vegetables,Onions,97.15,4.0,Member,Card,4.6,388.6
+INV-1457,2024-06-13,A,Kanpur,Bakery,White Bread,108.56,9.0,Normal,Card,4.3,977.04
+INV-1458,2024-04-17,A,Kanpur,Beverages,Mineral Water,174.42,6.0,Member,Cash,3.2,1046.52
+INV-1459,2024-03-19,C,Mumbai,Dairy,Butter,161.06,9.0,Member,Card,3.4,1449.54
+INV-1460,2024-06-03,C,Mumbai,Bakery,White Bread,80.08,5.0,Member,UPI,4.3,400.4
+INV-1461,2024-02-09,A,Kanpur,Dairy,Ghee,64.88,1.0,Member,Card,3.6,64.88
+INV-1462,2024-03-16,C,Mumbai,Personal Care,Shampoo,275.69,3.0,Member,UPI,3.9,827.07
+INV-1463,2024-03-08,B,Delhi,Bakery,Cookies,62.03,7.0,Member,Card,4.0,434.21
+INV-1464,2024-05-12,B,Delhi,Dairy,Butter,41.73,1.0,Member,Cash,2.7,41.73
+INV-1465,2024-02-12,A,Kanpur,Beverages,Mineral Water,172.37,4.0,Normal,UPI,4.6,689.48
+INV-1466,2024-03-17,A,Kanpur,Fruits & Vegetables,Onions,93.95,10.0,Member,UPI,3.7,939.5
+INV-1467,2024-04-28,B,Delhi,Personal Care,Shampoo,222.22,3.0,Normal,UPI,4.2,666.66
+INV-1468,2024-05-16,C,Mumbai,Bakery,Brown Bread,137.8,2.0,Normal,Card,3.3,275.6
+INV-1469,2024-01-27,C,Mumbai,Snacks,Chocolate Bar,148.19,9.0,Normal,Cash,3.1,1333.71
+INV-1470,2024-05-07,C,Mumbai,Household,Detergent,315.43,6.0,Normal,Card,3.8,1892.58
+INV-1471,2024-05-22,B,Delhi,Fruits & Vegetables,Potatoes,117.37,2.0,Member,Card,4.2,234.74
+INV-1472,2024-04-01,A,Kanpur,Beverages,Cola,157.04,9.0,Member,Cash,4.0,1413.36
+INV-1473,2024-03-08,C,Mumbai,Dairy,Yogurt,54.84,3.0,Member,Card,3.2,164.52
+INV-1474,2024-01-30,A,Kanpur,Dairy,Butter,,3.0,Normal,UPI,5.0,702.39
+INV-1475,2024-04-28,A,Kanpur,Beverages,Cola,102.01,8.0,Member,Cash,4.1,816.08
+INV-1476,2024-03-29,C,Mumbai,Snacks,Popcorn,138.09,4.0,Normal,UPI,3.9,552.36
+INV-1477,2024-04-04,C,Mumbai,Beverages,Cola,183.49,9.0,Normal,Card,3.1,1651.41
+INV-1478,2024-02-28,B,Delhi,Snacks,Potato Chips,46.59,7.0,Member,UPI,4.4,326.13
+INV-1479,2024-04-01,C,Mumbai,Snacks,Chocolate Bar,76.19,8.0,Member,UPI,3.4,609.52
+INV-1480,2024-04-23,A,Kanpur,Beverages,Orange Juice,126.58,8.0,Normal,Card,4.6,1012.64
+INV-1481,2024-01-27,A,Kanpur,Fruits & Vegetables,Apples,60.24,1.0,Member,Cash,3.5,60.24
+INV-1482,2024-01-06,C,Mumbai,Household,Tissue Paper,229.79,6.0,Normal,Cash,3.7,1378.74
+INV-1483,2024-02-21,B,Delhi,Personal Care,Soap,192.77,7.0,Normal,UPI,2.8,1349.39
+INV-1484,2024-05-23,B,Delhi,Snacks,Namkeen,24.79,8.0,Member,Cash,3.8,198.32
+INV-1485,2024-04-05,C,Mumbai,Fruits & Vegetables,Bananas,79.31,10.0,Normal,UPI,3.7,793.1
+INV-1486,2024-04-18,A,Kanpur,Bakery,Croissant,73.87,5.0,Member,Card,4.6,369.35
+INV-1487,2024-01-01,C,Mumbai,Beverages,Cheese,43.4,7.0,Normal,UPI,4.3,303.8
+INV-1488,2024-01-21,C,Mumbai,Fruits & Vegetables,Apples,58.26,2.0,Member,Card,3.8,116.52
+INV-1489,2024-06-07,A,Kanpur,Personal Care,Shampoo,175.58,1.0,Normal,Card,4.5,175.58
+INV-1490,2024-06-16,C,Mumbai,Beverages,Cola,209.46,9.0,Member,UPI,3.5,1885.14
+INV-1491,2024-04-08,B,Delhi,Fruits & Vegetables,Potatoes,80.11,10.0,Member,UPI,3.9,801.1
+INV-1492,2024-04-05,A,Kanpur,Household,Dish Soap,223.27,3.0,Member,Cash,3.5,669.81
+INV-1493,2024-02-02,C,Mumbai,Fruits & Vegetables,Onions,77.01,9.0,Normal,UPI,3.8,693.09
+INV-1494,2024-03-18,B,Delhi,Fruits & Vegetables,Apples,84.35,8.0,Member,Card,5.0,674.8
+INV-1495,2024-05-22,c,Mumbai,Dairy,Butter,173.87,6.0,Member,Card,3.9,1043.22
+INV-1496,2024-02-17,B,Delhi,Beverages,Mineral Water,99.53,1.0,Member,Cash,5.0,99.53
+INV-1497,2024-02-27,A,Kanpur,Beverages,Coffee Powder,50.54,2.0,Normal,UPI,4.1,101.08
+INV-1498,2024-03-17,A,Kanpur,Household,Dish Soap,116.79,2.0,Normal,Card,3.2,233.58
+INV-1499,2024-04-05,A,Kanpur,Fruits & Vegetables,Apples,114.43,10.0,Member,UPI,4.4,1144.3
+INV-1500,2024-03-30,C,Mumbai,Dairy,Milk 1L,112.6,5.0,Member,Cash,4.2,563.0

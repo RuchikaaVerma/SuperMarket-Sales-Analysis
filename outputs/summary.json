@@ -1,0 +1,82 @@
+{
+  "top_product": {
+    "name": "Cheese",
+    "sales": 25933.78
+  },
+  "top_branch": {
+    "branch": "C",
+    "city": "Mumbai",
+    "sales": 155313.68
+  },
+  "top_category": {
+    "name": "Beverages",
+    "sales": 87038.49
+  },
+  "top_payment": {
+    "method": "UPI",
+    "count": 215
+  },
+  "member_vs_normal": {
+    "member_avg": 707.13,
+    "normal_avg": 742.48,
+    "members_spend_more": false
+  },
+  "avg_rating": 3.94,
+  "_tables": {
+    "by_product": {
+      "Cheese": 25933.78,
+      "Face Wash": 20252.83,
+      "Soap": 18568.27,
+      "Floor Cleaner": 17993.76,
+      "Yogurt": 17042.84,
+      "Cola": 16557.72,
+      "Shampoo": 15119.11,
+      "Coffee Powder": 14533.97,
+      "Detergent": 13845.86,
+      "Tissue Paper": 13619.33,
+      "Paneer": 12884.59,
+      "Toothpaste": 12073.5,
+      "Mineral Water": 11620.81,
+      "Dish Soap": 11390.85,
+      "Butter": 10960.34,
+      "Orange Juice": 10211.85,
+      "Ghee": 9679.11,
+      "White Bread": 9039.29,
+      "Biscuits": 8320.39,
+      "Milk 1L": 8242.82,
+      "Green Tea": 8180.36,
+      "Potatoes": 8080.19,
+      "Apples": 7528.31,
+      "Namkeen": 7473.97,
+      "Chocolate Bar": 7375.93,
+      "Potato Chips": 7310.53,
+      "Onions": 7198.62,
+      "Muffin": 5713.41,
+      "Bananas": 5588.56,
+      "Cookies": 5062.39,
+      "Brown Bread": 4896.01,
+      "Tomatoes": 3897.5,
+      "Croissant": 3775.91,
+      "Popcorn": 2182.78
+    },
+    "by_branch": {
+      "C (Mumbai)": 155313.68,
+      "B (Delhi)": 111742.57,
+      "A (Kanpur)": 95099.24
+    },
+    "by_category": {
+      "Beverages": 87038.49,
+      "Personal Care": 66013.71,
+      "Dairy": 58809.7,
+      "Household": 56849.8,
+      "Snacks": 32663.6,
+      "Fruits & Vegetables": 32293.18,
+      "Bakery": 28487.01
+    },
+    "by_payment": {
+      "UPI": 215,
+      "Cash": 153,
+      "Card": 131
+    }
+  }
+}
